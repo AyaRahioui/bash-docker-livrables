@@ -1,0 +1,3 @@
+grep -c ",$reason," compte uniquement les lignes où reason est un champ entier (entouré de virgules).
+Sans les virgules, grep -c "$reason" compterait aussi les lignes où le mot apparaît ailleurs
+(dans product_name, ou dans une valeur comme "not_defective"), ce qui fausserait le comptage.

@@ -1,0 +1,17 @@
+[2026-11-07 08:13:48] Nettoyage des fichiers temporaires terminé
+[2026-11-07 08:13:48] Traitement de input/returns_agadir.csv
+[2026-11-07 08:13:49] agadir : defective = 1
+[2026-11-07 08:13:49] agadir : wrong_item = 2
+[2026-11-07 08:13:49] agadir : changed_mind = 3
+[2026-11-07 08:13:49] Archivage de agadir terminé
+[2026-11-07 08:13:49] Traitement de input/returns_casa.csv
+[2026-11-07 08:13:50] casa : defective = 4
+[2026-11-07 08:13:50] casa : wrong_item = 2
+[2026-11-07 08:13:50] casa : changed_mind = 2
+[2026-11-07 08:13:50] Archivage de casa terminé
+[2026-11-07 08:13:50] Traitement de input/returns_tanger.csv
+[2026-11-07 08:13:50] tanger : defective = 3
+[2026-11-07 08:13:51] tanger : wrong_item = 2
+[2026-11-07 08:13:51] tanger : changed_mind = 2
+[2026-11-07 08:13:51] Archivage de tanger terminé
+[2026-11-07 08:13:51] Traitement terminé

@@ -1,0 +1,15 @@
+services:
+  processor:
+    build: .
+    image: bim-returns:1.0
+    volumes:
+      - .:/workspace
+
+  viewer:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./output:/usr/share/nginx/html:ro
+    depends_on:
+      - processor

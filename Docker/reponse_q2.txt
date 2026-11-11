@@ -1,0 +1,1 @@
+Le container tourne une fois puis s'arrête, car returns_processor.sh est un traitement ponctuel qui se termine de lui-même ; contrairement à nginx, il n'a pas de processus à maintenir.
