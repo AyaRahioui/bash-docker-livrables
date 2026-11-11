@@ -67,11 +67,6 @@ docker compose down
 - **Image légère** : Alpine, avec seulement les paquets utiles au script (bash, gawk, coreutils).
 - **Bind mount du workspace** : les fichiers d'entrée et de sortie restent sur la machine hôte, on peut modifier les données sans reconstruire l'image.
 - **Conteneur ponctuel ou persistant** : *à compléter avec votre réponse à la question 2 de l'exercice, en une phrase.*
-- **Séparation des responsabilités** : un service traite les données, un autre les expose. Chacun peut être relancé indépendamment.
-
-## Exercice Bash
-
-*À compléter : décrivez en 2-3 phrases le ou les scripts du dossier `Bash/` (ce qu'ils lisent, ce qu'ils produisent, les commandes utilisées).*
 
 ## Prérequis
 
